@@ -29,7 +29,7 @@ section{
     font-family: 'Montserrat', sans-serif;
 }
 
-div{
+section div{
     width: 45%;
     text-align: center;
 }
@@ -45,4 +45,23 @@ ul li:nth-child(even){
 h2{
     font-family: 'VT323', monospace;
     font-size: 30 pt;
+}
+
+input::placeholder {
+    font-family: 'VT323', monospace;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links {
+display: flex;
+justify-content: space-evenly;
 }
