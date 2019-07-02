@@ -11,8 +11,14 @@ justify-content: space-evenly;
 }
 
 nav a{
-    color: blue;
+    color:navy;
     font-family: 'VT323', monospace;
     text-decoration: none;
     font-size: 22pt;
+}
+
+header {
+    background-image: url("images/kages2.jpg");
+    background-size: cover;
+    height: 400px;
 }
