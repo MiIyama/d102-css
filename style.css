@@ -22,3 +22,27 @@ header {
     background-size: cover;
     height: 400px;
 }
+section{
+    background-color:#a99264;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div{
+    width: 45%;
+    text-align: center;
+}
+
+div ul{
+    list-style-image: url("images/ninja.png")
+}
+
+ul li:nth-child(even){
+    color: white;
+}
+
+h2{
+    font-family: 'VT323', monospace;
+    font-size: 30 pt;
+}
